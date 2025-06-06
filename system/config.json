@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "api": {
+    "groq": {
+      "model": "mixtral-8x7b-32768",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    }
+  },
+  "storage": {
+    "message_retention_days": 30,
+    "task_retention_days": 90,
+    "conversation_retention_days": 180
+  },
+  "features": {
+    "auto_task_extraction": true,
+    "conversation_logging": true,
+    "github_mcp_integration": true
+  }
+}
